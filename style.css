@@ -1,0 +1,73 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+h2,h3,h4{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    border: 5px solid darkcyan;
+}
+
+.marksInput{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgb(111, 224, 187);
+    height: auto;
+}
+.marksInput input{
+    margin: 2px;
+}
+.marksInput label{
+    margin: 2px;
+}
+.marksInput button{
+    margin: 2px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: antiquewhite;
+    font-size: medium;
+    font-weight: 300;
+    transition: transform(1s);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.marksInput button:hover{
+    transform:scale(1,1.3);
+    background-color:blueviolet;
+    color: aliceblue;
+}
+
+.other-Info{
+        border: 1px solid black;
+        margin: 5px;
+        height: auto;
+        min-width: 200px;
+}
+#info div{
+    height:25px;
+    background-color: aliceblue;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.heading{
+    height: 10px;
+}
+.heading h4{
+    background-color: rgb(111, 224, 187);
+}
+#grade-total,#grade-average,#final-grade{
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
